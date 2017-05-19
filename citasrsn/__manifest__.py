@@ -27,8 +27,16 @@
         'views/views.xml',
         'views/templates.xml',
     ],
+
+    	'images': [
+        'static/description/imagen.png',
+    ],
+
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+
+    'installable': True,
+    'auto_install': False,  
 }
